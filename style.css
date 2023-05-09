@@ -34,6 +34,37 @@ a {
     border: 2px blue solid;
 }
 
+.module .comment{
+    display: hide;
+}
+
+.module1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+
+    /* Flex Fallback */
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1 1 200px;
+
+}
+
+.module2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+
+    /* Flex Fallback */
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1 1 200px;
+
+    border: 2px blue solid;
+}
+
 @supports (display: grid) {
     .module {
         margin: 0;
@@ -43,6 +74,11 @@ a {
 .module:hover {
     /*   box-shadow: 0 3px 10px yellow; */
     background-color: blue;
+}
+
+.module1:hover {
+    /*   box-shadow: 0 3px 10px yellow; */
+    background-color: rgb(102, 124, 222);
 }
 
 .module:hover a {
