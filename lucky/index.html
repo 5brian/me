@@ -1,24 +1,19 @@
 <html>
-<head>
-<script type="text/javascript">
-<!--
-// Create an array of the links to choose from:
-var links = new Array();
-links[0] = "http://www.google.com/";
-links[1] = "http://www.bing.com/";
-links[2] = "http://www.yahoo.com/";
-links[3] = "http://www.apple.com/";
+  <head>
+    <script type="text/javascript">
+      <!--
+      var links = new Array();
+      links[0] =
+        "https://flocrivello.com/changing-my-mind-on-remote-about-being-in-san-francisco/";
+      links[1] = "http://blog.mattneary.com/worse-is-better";
 
-function openLink() {
-  // Chooses a random link:
-  var i = Math.floor(Math.random() * links.length);
-  // Directs the browser to the chosen target:
-  parent.location = links[i];
-  return false;
-}
-//-->
-</script>
-</head>
-<body onload="openLink();">
-</body>
+      function openLink() {
+        var i = Math.floor(Math.random() * links.length);
+        parent.location = links[i];
+        return false;
+      }
+      //-->
+    </script>
+  </head>
+  <body onload="openLink();"></body>
 </html>
